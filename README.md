@@ -4,7 +4,7 @@ This was done using the TensorFlow platform. Skip Thought Vectors is used to pro
 
 ![image](https://github.com/DongZhaoXiong/Text-to-Cloth-GAN/blob/main/TC-GAN%20network.png)
 <div align=center>
-<img src="https://github.com/DongZhaoXiong/Text-to-Cloth-GAN/blob/main/TC-GAN%20network.png" width="180" height="105"> width="180" height="105"/>
+<img src="https://github.com/DongZhaoXiong/Text-to-Cloth-GAN/blob/main/TC-GAN%20network.png" > 
 </div>
 
 

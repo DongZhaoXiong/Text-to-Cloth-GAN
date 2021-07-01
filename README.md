@@ -21,7 +21,7 @@ This was done using the TensorFlow platform. Skip Thought Vectors is used to pro
 
 - Fashion-166 describes the text through subjective vision. At the same time, in order to reduce the influence of subjective consciousness on the objective results of the model, the method of multi-feature mixed labeling was adopted. Fashion-166 contains 9993 clothing images from 166 different categories. Clothing categories include: jacket, shorts, pants, plaid shirt, T-shirt, hoodie, leggings, sweatpants, suit, dress, turtleneck sweater, vest and other different categories. In addition to the ontology category, the text description of clothing features also includes different features such as material, appearance, neckline type, pattern type, adapted season, trouser waist type, trouser mouth type, sleeve length and trouser leg length. Some specific category statistics are as follows:
 
-  ![Fashion-166(part)](E:\毕设-CD\TC-GAN\Fashion-166(part).png)
+  ![image](https://github.com/DongZhaoXiong/Text-to-Cloth-GAN/blob/main/Fashion-166(part).png)
 
 - The Fashon-166 dataset is stored in Data/cloth
 

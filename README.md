@@ -1,6 +1,6 @@
 # Text To Cloth Generative Adversarial Network(TC-GAN)
 
-This was done using the TensorFlow platform. Skip Thought Vectors is used to process the text descriptions, and TC-GAN algorithm is used to generate the cloth image. Here is the model structure.
+In previous work(https://github.com/DongZhaoXiong/C-DCGAN.git), the generation of clothing images depended on the classification of data sets. In this work, Skip Thought Vectors is used to process the text description and TC-GaN algorithm is used to generate the fabric image. The experiment was completed using the TensorFlow platform. Here is the model structure.
 
 <div align=center>
 <img src="https://github.com/DongZhaoXiong/Text-to-Cloth-GAN/blob/main/TC-GAN%20network.png" > 
@@ -18,18 +18,32 @@ This was done using the TensorFlow platform. Skip Thought Vectors is used to pro
 
 ### Datasets
 
-- In order to better model training, this paper designed the Fathion -166 dataset for the first time.
+- In order to better model training, this paper designed the Fathion -166 dataset.
 
-- Fashion-166 is a text clothing image dataset based on the Deepfashion dataset.
+- Fashion-166 is a text clothing image dataset based on the 
+
+  [DeepFashion]: https://openaccess.thecvf.com/content_cvpr_2016/html/Liu_DeepFashion_Powering_Robust_CVPR_2016_paper.html
+
+   dataset.
 
 - Fashion-166 describes the text through subjective vision. At the same time, in order to reduce the influence of subjective consciousness on the objective results of the model, the method of multi-feature mixed labeling was adopted. Fashion-166 contains 9993 clothing images from 166 different categories. Clothing categories include: jacket, shorts, pants, plaid shirt, T-shirt, hoodie, leggings, sweatpants, suit, dress, turtleneck sweater, vest and other different categories. In addition to the ontology category, the text description of clothing features also includes different features such as material, appearance, neckline type, pattern type, adapted season, trouser waist type, trouser mouth type, sleeve length and trouser leg length. Some specific category statistics are as follows:
 
 <div align=center>
 <img src="https://github.com/DongZhaoXiong/Text-to-Cloth-GAN/blob/main/Fashion-166(part).png" > 
 </div>
+- You can download Fashion-166 dataset from(https://drive.google.com/file/d/1RYBb-x6tgm7Jyo2ZuMS_6_QWkYnc3qD3/view?usp=sharing)
 - The Fashon-166 dataset is stored in Data/cloth
-
 - Download the pre-trained Skip Thoughts model and save it in Data/ SkipThoughts
+- In the Data directory create a folder with the following structure:
+
+~~~
+└─Data
+    ├─cloth
+    ├─Models
+    ├─samples
+    ├─SkipThoughts
+    └─val_samples
+~~~
 
 ### Usage
 
@@ -61,11 +75,9 @@ python3 generate_images.py --model_path=<trained model path> --n_image=<generate
 
 ### Acknowledgement
 
-Thanks to Reed et al([Generative Adversarial Text-to-Image Synthesis](http://arxiv.org/abs/1605.05396))
+Thank you very much for the study of Reed et al([Generative Adversarial Text-to-Image Synthesis](http://arxiv.org/abs/1605.05396)), which provided good ideas
 
-Thanks for the code reference(https://github.com/paarthneekhara/text-to-image)
+Thanks a lot for the code reference(https://github.com/paarthneekhara/text-to-image)
 
-Thanks to the Deepfashion dataset for providing clothing images([DeepFashion](https://openaccess.thecvf.com/content_cvpr_2016/html/Liu_DeepFashion_Powering_Robust_CVPR_2016_paper.html))
-
-
+Thanks to the DeepFashion([DeepFashion](https://openaccess.thecvf.com/content_cvpr_2016/html/Liu_DeepFashion_Powering_Robust_CVPR_2016_paper.html)) dataset for providing clothing images to advance our labelling work
 

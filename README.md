@@ -3,6 +3,10 @@
 This was done using the TensorFlow platform. Skip Thought Vectors is used to process the text descriptions, and TC-GAN algorithm is used to generate the cloth image. Here is the model structure.
 
 ![image](https://github.com/DongZhaoXiong/Text-to-Cloth-GAN/blob/main/TC-GAN%20network.png)
+<div align=center>
+<img src="https://github.com/DongZhaoXiong/Text-to-Cloth-GAN/blob/main/TC-GAN%20network.png" width="180" height="105"> width="180" height="105"/>
+</div>
+
 
 ### Requirements
 

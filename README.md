@@ -31,6 +31,7 @@ In previous work(https://github.com/DongZhaoXiong/C-DCGAN.git), the generation o
 <div align=center>
 <img src="https://github.com/DongZhaoXiong/Text-to-Cloth-GAN/blob/main/Fashion-166(part).png" > 
 </div>
+
 - You can download Fashion-166 dataset from(https://drive.google.com/file/d/1RYBb-x6tgm7Jyo2ZuMS_6_QWkYnc3qD3/view?usp=sharing)
 - The Fashon-166 dataset is stored in Data/cloth
 - Download the pre-trained Skip Thoughts model and save it in Data/ SkipThoughts

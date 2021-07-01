@@ -1,6 +1,6 @@
 # Text To Cloth Generative Adversarial Network(TC-GAN)
 
-In previous work(https://github.com/DongZhaoXiong/C-DCGAN.git), the generation of clothing images depended on the classification of data sets. In this work, Skip Thought Vectors is used to process the text description and TC-GaN algorithm is used to generate the fabric image. The experiment was completed using the TensorFlow platform. Here is the model structure.
+In [previous work](https://github.com/DongZhaoXiong/C-DCGAN.git), the generation of clothing images depended on the classification of data sets. In this work, Skip Thought Vectors is used to process the text description and TC-GaN algorithm is used to generate the fabric image. The experiment was completed using the TensorFlow platform. Here is the model structure.
 
 <div align=center>
 <img src="https://github.com/DongZhaoXiong/Text-to-Cloth-GAN/blob/main/TC-GAN%20network.png" > 

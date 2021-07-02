@@ -32,7 +32,7 @@ In [previous work](https://github.com/DongZhaoXiong/C-DCGAN.git), the generation
 <img src="https://github.com/DongZhaoXiong/Text-to-Cloth-GAN/blob/main/Fashion-166(part).png" > 
 </div>
 
-- You can download Fashion-166 dataset from(https://drive.google.com/file/d/1RYBb-x6tgm7Jyo2ZuMS_6_QWkYnc3qD3/view?usp=sharing)
+- You can download Fashion-166 dataset from[Fashion-166](https://drive.google.com/file/d/1RYBb-x6tgm7Jyo2ZuMS_6_QWkYnc3qD3/view?usp=sharing)
 - The Fashon-166 dataset is stored in Data/cloth
 - Download the pre-trained Skip Thoughts model and save it in Data/ SkipThoughts
 - In the Data directory create a folder with the following structure:
@@ -82,3 +82,5 @@ Thanks a lot for the code reference(https://github.com/paarthneekhara/text-to-im
 
 Thanks to the DeepFashion([DeepFashion](https://openaccess.thecvf.com/content_cvpr_2016/html/Liu_DeepFashion_Powering_Robust_CVPR_2016_paper.html)) dataset for providing clothing images to advance our labelling work
 
+### Author
+Dong Zhaoxiong

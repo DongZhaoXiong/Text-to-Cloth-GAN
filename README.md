@@ -74,7 +74,7 @@ python3 generate_thought_vectors.py --caption_file="Data/sample_captions.txt"
 python3 generate_images.py --model_path=<trained model path> --n_image=<generate image number>
 ~~~
 
-### Reference
+### Thanks
 
 Thank you very much for the study of Reed et al([Generative Adversarial Text-to-Image Synthesis](http://arxiv.org/abs/1605.05396)), which provided good ideas
 

@@ -20,11 +20,7 @@ In [previous work](https://github.com/DongZhaoXiong/C-DCGAN.git), the generation
 
 - In order to better model training, this paper designed the Fathion -166 dataset.
 
-- Fashion-166 is a text clothing image dataset based on the 
-
-  [DeepFashion]: https://openaccess.thecvf.com/content_cvpr_2016/html/Liu_DeepFashion_Powering_Robust_CVPR_2016_paper.html
-
-   dataset.
+- Fashion-166 is a text clothing image dataset based on the [DeepFashion](https://openaccess.thecvf.com/content_cvpr_2016/html/Liu_DeepFashion_Powering_Robust_CVPR_2016_paper.html) dataset.
 
 - Fashion-166 describes the text through subjective vision. At the same time, in order to reduce the influence of subjective consciousness on the objective results of the model, the method of multi-feature mixed labeling was adopted. Fashion-166 contains 9993 clothing images from 166 different categories. Clothing categories include: jacket, shorts, pants, plaid shirt, T-shirt, hoodie, leggings, sweatpants, suit, dress, turtleneck sweater, vest and other different categories. In addition to the ontology category, the text description of clothing features also includes different features such as material, appearance, neckline type, pattern type, adapted season, trouser waist type, trouser mouth type, sleeve length and trouser leg length. Some specific category statistics are as follows:
 
@@ -32,7 +28,7 @@ In [previous work](https://github.com/DongZhaoXiong/C-DCGAN.git), the generation
 <img src="https://github.com/DongZhaoXiong/Text-to-Cloth-GAN/blob/main/Fashion-166(part).png" > 
 </div>
 
-- You can download Fashion-166 dataset from[Fashion-166](https://drive.google.com/file/d/1RYBb-x6tgm7Jyo2ZuMS_6_QWkYnc3qD3/view?usp=sharing)
+- You can download Fashion-166 dataset from [Fashion-166](https://drive.google.com/file/d/1RYBb-x6tgm7Jyo2ZuMS_6_QWkYnc3qD3/view?usp=sharing)
 - The Fashon-166 dataset is stored in Data/cloth
 - Download the pre-trained Skip Thoughts model and save it in Data/ SkipThoughts
 - In the Data directory create a folder with the following structure:
@@ -80,7 +76,7 @@ Thank you very much for the study of Reed et al([Generative Adversarial Text-to-
 
 Thanks a lot for the code reference(https://github.com/paarthneekhara/text-to-image)
 
-Thanks to the DeepFashion([DeepFashion](https://openaccess.thecvf.com/content_cvpr_2016/html/Liu_DeepFashion_Powering_Robust_CVPR_2016_paper.html)) dataset for providing clothing images to advance our labelling work
+Thanks to the [DeepFashion](https://openaccess.thecvf.com/content_cvpr_2016/html/Liu_DeepFashion_Powering_Robust_CVPR_2016_paper.html) dataset for providing clothing images to advance our labelling work
 
 ### Author
 Dong Zhaoxiong
